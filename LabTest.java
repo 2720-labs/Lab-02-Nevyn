@@ -22,4 +22,11 @@ public class LabTest {
         int result = 8 * 52;
         assertEquals(result, 416);
     }
+
+    @Test
+    //Testing Divison function Dividing 2 numbers expected result = 3
+    public void testDivision() {
+        int result = 9 / 3;
+        assertEquals(result, 3);
+    }
 }
