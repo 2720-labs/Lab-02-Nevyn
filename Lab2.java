@@ -16,6 +16,11 @@ import java.util.*;
             int prod = a * b;
             return prod;
         }
+
+        static int division(int a, int b){
+            int div = a /b;
+            return div;
+        }
         
         
         public static void main(String[] args){
@@ -27,9 +32,11 @@ import java.util.*;
             int sum = add(a,b);
             int diff = subtract(a, b);
             int prod = multiply(a, b);
+            int div = division(a,b);
 
             System.out.println(a + " + " + b + " = " + sum);
             System.out.println(a + " - " + b + " = " + diff);
             System.out.println(a + " * " + b + " = " + prod);
+            System.out.println(a + " / " + b + " = " + div);
     }
 }
