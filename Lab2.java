@@ -1,5 +1,5 @@
 import java.util.*;
-    
+    // This is a lab 2 lab comment added by phiilip obiora
     public class Lab2{
         
         static int add(int a, int b){
